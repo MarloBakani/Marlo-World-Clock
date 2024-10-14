@@ -49,3 +49,8 @@ h2 {
 footer {
   padding-top: 40px;
 }
+
+.name {
+  font-weight: bold;
+  font-size: 28px;
+}
