@@ -1,3 +1,51 @@
 h1 {
-  background-color: red;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f8f8ff;
+  padding: 40px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+select {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  border-bottom: 1px dashed grey;
+  padding: 20px;
+}
+
+.city:last-child {
+  border: none;
+}
+
+.time {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+h2 {
+  margin: 0 0 5px;
+}
+
+footer {
+  padding-top: 40px;
 }
